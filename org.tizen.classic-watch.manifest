@@ -1,0 +1,12 @@
+<manifest>
+    <define>
+        <domain name="org.tizen.classic-watch"/>
+    </define>
+    <assign>
+	<filesystem path="/usr/apps/org.tizen.classic-watch/shared/res/icons/default/small/org.tizen.classic-watch.png" label="_" />
+	<filesystem path="/usr/apps/org.tizen.classic-watch/bin/classic-watch" exec_label="org.tizen.classic-watch" />
+    </assign>
+    <request>
+        <domain name="org.tizen.classic-watch"/>
+    </request>
+</manifest>

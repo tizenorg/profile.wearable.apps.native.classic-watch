@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://tizen.org/ns/packages" package="org.tizen.classic-watch" version="0.0.1" install-location="internal-only" api-version="2.3.1">
+	<author email="gs86.lee@samsung.com" href="www.samsung.com">Geunsun Lee</author>
+	<description>Idle clock application</description>
+	<watch-application appid="org.tizen.classic-watch" exec="/usr/apps/org.tizen.classic-watch/bin/classic-watch" ambient-support="true">
+		<label>Classic watch</label>
+		<icon>org.tizen.classic-watch.png</icon>
+	</watch-application>
+</manifest>
