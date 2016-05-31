@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://tizen.org/ns/packages" package="org.tizen.classic-watch" version="0.0.1" install-location="internal-only" api-version="2.3.1">
+	<profile name="wearable" />
+	<watch-application appid="org.tizen.classic-watch" exec="/usr/apps/org.tizen.classic-watch/bin/classic-watch" ambient-support="true">
+		<category name="org.tizen.wmanager.WATCH_CLOCK"></category>
+		<metadata key="clocktype" value="function"></metadata>
+		<label>Classic watch</label>
+		<icon>org.tizen.classic-watch.png</icon>
+	</watch-application>
+</manifest>
