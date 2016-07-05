@@ -497,6 +497,13 @@ float data_get_moonphase(int day, int month, int year)
 	int i = 0;
 
 	/*
+	 * Initialize date information
+	 */
+	start_stamp.year = last_stamp.year = 2016;
+	start_stamp.month = last_stamp.month = 1;
+	start_stamp.day = last_stamp.day = 1;
+
+	/*
 	 * This watch sample provide moon phase from 2016 to 2020.
 	 */
 	if (year < 2016 || year > 2020) {

@@ -72,8 +72,5 @@ make_data_directory
 %manifest org.tizen.classic-watch.manifest
 %defattr(-,root,root,-)
 %{PREFIX}/*
-%{PREFIX}/bin/*
-%{PREFIX}/res/*
 /usr/share/packages/org.tizen.classic-watch.xml
-/usr/apps/org.tizen.classic-watch/shared/res/org.tizen.classic-watch.png
 
